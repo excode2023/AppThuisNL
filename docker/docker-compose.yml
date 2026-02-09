@@ -1,0 +1,29 @@
+services:
+  api:
+    build:
+      context: ..                  # ← mira la raíz del proyecto (AppThuisNL)
+      dockerfile: ThuisNL.API/Dockerfile   # ← ruta exacta al Dockerfile que moviste
+    image: appthuisnl-api:latest
+    ports:
+      - "8080:8080"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=http://+:8080
+      - ConnectionStrings__DefaultConnection=Host=db;Port=5432;Database=ThuisNL;Username=postgres;Password=TuPassSuperSegura123!
+    depends_on:
+      - db
+
+  db:
+    image: postgres:16
+    container_name: thuisnl-postgres
+    environment:
+      POSTGRES_DB: ThuisNL
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: 123456!
+    ports:
+      - "5433:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+volumes:
+  postgres_data:

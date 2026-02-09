@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="ThuisNL.API/ThuisNL.API.csproj" />
+  <Project Path="ThuisNL.Application/ThuisNL.Application.csproj" />
+  <Project Path="ThuisNL.Core/ThuisNL.Core.csproj" />
+  <Project Path="ThuisNL.Infrastructure/ThuisNL.Infrastructure.csproj" />
+</Solution>
