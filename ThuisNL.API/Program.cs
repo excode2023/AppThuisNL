@@ -4,12 +4,7 @@ using ThuisNL.Infrastructure.Extensions;  // <-- solo este using nuevPo
 var builder = WebApplication.CreateBuilder(args);
 // Tus services aquí (DbContext, controllers, etc.)
 
-builder.Services.AddDbContext<ApplicationDbContext>(options =>
-    options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
-
-builder.Services.AddControllers();
-// ... otros AddSwagger, AddAuthentication, etc.
-
+// Controllers
 builder.Services.AddControllers();
 
 // Registro DB limpio 🔥 (todo el EF escondido en Infrastructure)

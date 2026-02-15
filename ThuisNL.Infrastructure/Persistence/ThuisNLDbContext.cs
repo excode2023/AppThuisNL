@@ -3,7 +3,7 @@ using ThuisNL.Core.Domain;
 
 namespace ThuisNL.Infrastructure.Persistence;
 
-public class ThuisNLDbContext : DbContext  // <-- nombre clase cambiado
+public class ThuisNLDbContext : DbContext
 {
     public ThuisNLDbContext(DbContextOptions<ThuisNLDbContext> options)
         : base(options)
@@ -18,9 +18,12 @@ public class ThuisNLDbContext : DbContext  // <-- nombre clase cambiado
 
         modelBuilder.Entity<User>(entity =>
         {
+            entity.ToTable("Users");
+
             entity.HasKey(u => u.Id);
 
-            entity.HasIndex(u => u.Email).IsUnique();
+            entity.HasIndex(u => u.Email)
+                  .IsUnique();
 
             entity.Property(u => u.FirstName)
                   .IsRequired()
@@ -47,7 +50,8 @@ public class ThuisNLDbContext : DbContext  // <-- nombre clase cambiado
                   .HasMaxLength(10)
                   .HasDefaultValue("nl");
 
-            entity.ToTable("Users");
+            entity.Property(u => u.CreatedAt)
+                  .HasDefaultValueSql("CURRENT_TIMESTAMP");
         });
     }
 }
