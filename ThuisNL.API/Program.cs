@@ -1,23 +1,32 @@
-var builder = WebApplication.CreateBuilder(args);
+using ThuisNL.Infrastructure.Extensions;  // <-- solo este using nuevPo
 
-// Add services to the container.
+
+var builder = WebApplication.CreateBuilder(args);
+// Tus services aquí (DbContext, controllers, etc.)
+
+builder.Services.AddDbContext<ApplicationDbContext>(options =>
+    options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 builder.Services.AddControllers();
-// Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
-builder.Services.AddOpenApi();
+// ... otros AddSwagger, AddAuthentication, etc.
+
+builder.Services.AddControllers();
+
+// Registro DB limpio 🔥 (todo el EF escondido en Infrastructure)
+builder.Services.AddDatabase(builder.Configuration);
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
-    app.MapOpenApi();
+    app.UseDeveloperExceptionPage();
 }
 
 app.UseHttpsRedirection();
-
 app.UseAuthorization();
-
 app.MapControllers();
+
+// Endpoint básico para ver que API vive
+app.MapGet("/", () => "¡ThuisNL API viva y clean! 🔥🏡 Conectando refugiados y locales en NL");
 
 app.Run();

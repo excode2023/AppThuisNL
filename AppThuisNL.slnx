@@ -1,5 +1,5 @@
 <Solution>
-  <Project Path="ThuisNL.API/ThuisNL.API.csproj" />
+  <Project Path="ThuisNL.API/ThuisNL.API.csproj" DisplayName="ThuisNL.Api" Id="0e858817-2931-4345-b0c8-d2bf91bb520b" />
   <Project Path="ThuisNL.Application/ThuisNL.Application.csproj" />
   <Project Path="ThuisNL.Core/ThuisNL.Core.csproj" />
   <Project Path="ThuisNL.Infrastructure/ThuisNL.Infrastructure.csproj" />

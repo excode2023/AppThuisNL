@@ -11,7 +11,14 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\ThuisNL.Application\ThuisNL.Application.csproj" />
+    <ProjectReference Include="..\ThuisNL.Core\ThuisNL.Core.csproj" />
+    <ProjectReference Include="..\ThuisNL.Infrastructure\ThuisNL.Infrastructure.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="Controllers\" />
+    <Folder Include="Extensions\" />
   </ItemGroup>
 
 </Project>
