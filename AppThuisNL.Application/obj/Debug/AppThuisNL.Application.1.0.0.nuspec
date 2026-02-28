@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>AppThuisNL.Application</id>
+    <version>1.0.0</version>
+    <authors>AppThuisNL.Application</authors>
+    <description>Package Description</description>
+    <repository type="git" commit="884c37583c6e5eba510e7ae6ec6f83e8dab6591b" />
+    <dependencies>
+      <group targetFramework="net10.0">
+        <dependency id="AppThuisNL.Domain" version="1.0.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\DevExavier\Desktop\GYM\Proyectovs2026\ThuisNL\AppThuisNL\AppThuisNL.Application\bin\Debug\net10.0\AppThuisNL.Application.dll" target="lib\net10.0\AppThuisNL.Application.dll" />
+  </files>
+</package>

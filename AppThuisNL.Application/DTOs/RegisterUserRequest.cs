@@ -1,5 +1,6 @@
 using AppThuisNL.Domain.Enums;
 
+
 namespace AppThuisNL.Application.DTOs;
 
 public class RegisterUserRequest
@@ -12,5 +13,5 @@ public class RegisterUserRequest
 
     public string Password { get; set; } = string.Empty;
 
-    public UserRole Role { get; set; }
+    public UserType Role { get; set; }
 }

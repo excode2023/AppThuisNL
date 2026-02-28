@@ -1,0 +1,13 @@
+C:\Users\DevExavier\Desktop\GYM\Proyectovs2026\ThuisNL\AppThuisNL\AppThuisNL.Domain\bin\Debug\net10.0\AppThuisNL.Domain.deps.json
+C:\Users\DevExavier\Desktop\GYM\Proyectovs2026\ThuisNL\AppThuisNL\AppThuisNL.Domain\bin\Debug\net10.0\AppThuisNL.Domain.dll
+C:\Users\DevExavier\Desktop\GYM\Proyectovs2026\ThuisNL\AppThuisNL\AppThuisNL.Domain\bin\Debug\net10.0\AppThuisNL.Domain.pdb
+C:\Users\DevExavier\Desktop\GYM\Proyectovs2026\ThuisNL\AppThuisNL\AppThuisNL.Domain\obj\Debug\net10.0\AppThuisNL.Domain.csproj.AssemblyReference.cache
+C:\Users\DevExavier\Desktop\GYM\Proyectovs2026\ThuisNL\AppThuisNL\AppThuisNL.Domain\obj\Debug\net10.0\AppThuisNL.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DevExavier\Desktop\GYM\Proyectovs2026\ThuisNL\AppThuisNL\AppThuisNL.Domain\obj\Debug\net10.0\AppThuisNL.Domain.AssemblyInfoInputs.cache
+C:\Users\DevExavier\Desktop\GYM\Proyectovs2026\ThuisNL\AppThuisNL\AppThuisNL.Domain\obj\Debug\net10.0\AppThuisNL.Domain.AssemblyInfo.cs
+C:\Users\DevExavier\Desktop\GYM\Proyectovs2026\ThuisNL\AppThuisNL\AppThuisNL.Domain\obj\Debug\net10.0\AppThuisNL.Domain.csproj.CoreCompileInputs.cache
+C:\Users\DevExavier\Desktop\GYM\Proyectovs2026\ThuisNL\AppThuisNL\AppThuisNL.Domain\obj\Debug\net10.0\AppThuisNL.Domain.sourcelink.json
+C:\Users\DevExavier\Desktop\GYM\Proyectovs2026\ThuisNL\AppThuisNL\AppThuisNL.Domain\obj\Debug\net10.0\AppThuisNL.Domain.dll
+C:\Users\DevExavier\Desktop\GYM\Proyectovs2026\ThuisNL\AppThuisNL\AppThuisNL.Domain\obj\Debug\net10.0\refint\AppThuisNL.Domain.dll
+C:\Users\DevExavier\Desktop\GYM\Proyectovs2026\ThuisNL\AppThuisNL\AppThuisNL.Domain\obj\Debug\net10.0\AppThuisNL.Domain.pdb
+C:\Users\DevExavier\Desktop\GYM\Proyectovs2026\ThuisNL\AppThuisNL\AppThuisNL.Domain\obj\Debug\net10.0\ref\AppThuisNL.Domain.dll

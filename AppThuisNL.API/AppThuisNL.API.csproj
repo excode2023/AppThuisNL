@@ -4,15 +4,25 @@
     <TargetFramework>net10.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+    <EFVersion>10.0.3</EFVersion>
+    <NpgsqlVersion>10.0.0</NpgsqlVersion>
   </PropertyGroup>
 
-  <ItemGroup>
-    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.3" />
+<ItemGroup>
+    <!-- Paquetes base para ASP.NET Core -->
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="10.0.3" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="10.0.3" />  <!-- Este pa' Identity + EF, el que necesitás -->
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="10.0.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="10.0.3" />  <!-- Pa' migraciones con dotnet ef -->
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="10.0.3" />  <!-- Resuelve el conflicto directo -->
+    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="10.0.0" />  <!-- Postgres driver, actualizado y compatible -->
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.7.3" />  <!-- Pa' Swagger, si lo usás -->
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\AppThuisNL.Application\AppThuisNL.Application.csproj" />
     <ProjectReference Include="..\AppThuisNL.Infrastructure\AppThuisNL.Infrastructure.csproj" />
+    
   </ItemGroup>
 
   <ItemGroup>

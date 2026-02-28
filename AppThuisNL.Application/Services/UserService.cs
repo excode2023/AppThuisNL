@@ -16,13 +16,12 @@ public class UserService : IUserService
 
     public async Task<AppUsers> RegisterAsync(RegisterUserRequest request)
     {
-        // 1️⃣ Validar si el email ya existe
+        // 1️ Chequea si email existe – if basic.
         var exists = await _userRepository.ExistsByEmailAsync(request.Email);
-
         if (exists)
             throw new Exception("Email already registered.");
 
-        // 2️⃣ Crear entidad de dominio
+        // 2️ Crea user con los 4 args – ahora funciona porque agregamos el constructor.
         var user = new AppUsers(
             request.FirstName,
             request.LastName,
@@ -30,7 +29,7 @@ public class UserService : IUserService
             request.Role
         );
 
-        // 3️⃣ Guardar en repositorio
+        // 3️ Guarda – asume repo lo hace.
         await _userRepository.AddAsync(user);
 
         return user;
