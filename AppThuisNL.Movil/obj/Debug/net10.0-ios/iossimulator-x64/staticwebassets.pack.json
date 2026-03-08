@@ -1,0 +1,53 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\DevExavier\\.nuget\\packages\\microsoft.aspnetcore.components.webview\\10.0.0\\staticwebassets\\blazor.modules.json",
+      "PackagePath": "staticwebassets\\_framework\\blazor.modules.json"
+    },
+    {
+      "Id": "C:\\Users\\DevExavier\\.nuget\\packages\\microsoft.aspnetcore.components.webview\\10.0.0\\staticwebassets\\blazor.webview.js",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webview.js"
+    },
+    {
+      "Id": "C:\\Users\\DevExavier\\Desktop\\GYM\\Proyectovs2026\\AppThuisNL\\AppThuisNL.Movil\\obj\\Debug\\net10.0-ios\\iossimulator-x64\\scopedcss\\bundle\\AppThuisNL.Movil.styles.css",
+      "PackagePath": "staticwebassets\\AppThuisNL.Movil.styles.css"
+    },
+    {
+      "Id": "C:\\Users\\DevExavier\\Desktop\\GYM\\Proyectovs2026\\AppThuisNL\\AppThuisNL.Movil\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\DevExavier\\Desktop\\GYM\\Proyectovs2026\\AppThuisNL\\AppThuisNL.Movil\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\DevExavier\\Desktop\\GYM\\Proyectovs2026\\AppThuisNL\\AppThuisNL.Movil\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\DevExavier\\Desktop\\GYM\\Proyectovs2026\\AppThuisNL\\AppThuisNL.Movil\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "obj\\Debug\\net10.0-ios\\iossimulator-x64\\staticwebassets\\msbuild.AppThuisNL.Movil.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net10.0-ios\\iossimulator-x64\\staticwebassets\\msbuild.AppThuisNL.Movil.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net10.0-ios\\iossimulator-x64\\staticwebassets\\msbuild.build.AppThuisNL.Movil.props",
+      "PackagePath": "build\\AppThuisNL.Movil.props"
+    },
+    {
+      "Id": "obj\\Debug\\net10.0-ios\\iossimulator-x64\\staticwebassets\\msbuild.buildMultiTargeting.AppThuisNL.Movil.props",
+      "PackagePath": "buildMultiTargeting\\AppThuisNL.Movil.props"
+    },
+    {
+      "Id": "obj\\Debug\\net10.0-ios\\iossimulator-x64\\staticwebassets\\msbuild.buildTransitive.AppThuisNL.Movil.props",
+      "PackagePath": "buildTransitive\\AppThuisNL.Movil.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

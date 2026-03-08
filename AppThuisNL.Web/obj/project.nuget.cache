@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "27iJ+DBnooM=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\DevExavier\\Desktop\\GYM\\Proyectovs2026\\AppThuisNL\\AppThuisNL.Web\\AppThuisNL.Web.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\DevExavier\\.nuget\\packages\\microsoft.aspnetcore.app.internal.assets\\10.0.3\\microsoft.aspnetcore.app.internal.assets.10.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

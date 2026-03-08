@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "AppThuisNL.Application/1.0.0": {
+        "dependencies": {
+          "AppThuisNL.Domain": "1.0.0"
+        },
+        "runtime": {
+          "AppThuisNL.Application.dll": {}
+        }
+      },
+      "AppThuisNL.Domain/1.0.0": {
+        "runtime": {
+          "AppThuisNL.Domain.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AppThuisNL.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AppThuisNL.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
